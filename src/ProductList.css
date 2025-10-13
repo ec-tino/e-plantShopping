@@ -47,12 +47,17 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.product-grid h1 {
+    text-align: center;
+}
+
 .product-list {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    /* background-color: pink; */
-    /* justify-content: space-between; */
+    background-color: pink;
+    justify-content: space-between;
     padding: 20px;
     width: 100%;
     align-items: center;
