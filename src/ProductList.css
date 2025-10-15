@@ -116,6 +116,13 @@ body {
     background-color: #c0392b;
 }
 
+.product-button:disabled {
+    background-color: #cccccc; /* Light gray */
+    color: #666666;             /* Darker gray text */
+    cursor: not-allowed;        /* Changes cursor to a 'no-entry' sign */
+    opacity: 0.8;               /* Slightly fade it out */
+}
+
 /* Pseudo-elements - Sale badge */
 .product-card::before {
     content: "SALE";
